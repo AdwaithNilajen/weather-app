@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/HD-wallpaper-partly-cloudy-clouds-nature-sky-weather.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.card {
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    background-color: #13133c;
+    color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-header {
+    background-color: #343a5e;
+    color: #ffdd57;
+    font-weight: bold;
+}
+
+
+#weatherForm input {
+    background: rgba(244, 223, 223, 0.37);
+    border: 1px solid rgba(138, 130, 236, 0.5);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#weatherForm button {
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+#weatherForm button.btn-success:hover {
+    background-color: #28a745;
+    box-shadow: 0px 4px 10px #28a74580;
+}
+
+#weatherForm button.btn-danger:hover {
+    background-color: #dc3545;
+    box-shadow: 0px 4px 10px #dc354580;
+}
+
+
+#weatherDisplay {
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 1rem; 
+    color: #8bf19f;
+}
+
+.weather-info-box {
+    background-color: #20274d; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto; 
+}
+
+.placeholder-text {
+    color: #a3a3dc; 
+    font-weight: 500;
+}
+
+
+
+
+.card-footer {
+    background: #2e2e56;
+}
+
+.list-group-item {
+    background: #25254a;
+    color: #a3a3dc;
+    border: none;
+}
+
+
+.weather-temp {
+    color: #ffdd57;
+}
+
+.weather-humidity {
+    color: #1e90ff;
+}
+
+.weather-wind {
+    color: #32cd32;
+}
+
+.weather-condition {
+    color: #f1f1f1;
+}
